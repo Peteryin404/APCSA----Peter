@@ -22,4 +22,6 @@ public boolean makeBricks(int small, int big, int goal)
 }
 
 
-public boolean 
+public int caughtSpeeding(int speed, boolean isBirthday) 
+{
+  
