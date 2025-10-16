@@ -24,4 +24,5 @@ public boolean makeBricks(int small, int big, int goal)
 
 public int caughtSpeeding(int speed, boolean isBirthday) 
 {
-  
+  return (speed <= 60) || (!noTicket && speed <= 80) || (!noTicket && !smallTicket);
+}
