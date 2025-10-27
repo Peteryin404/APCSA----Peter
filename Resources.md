@@ -5,6 +5,16 @@ https://youtu.be/aRLDi2q-4WY
 ## Reference
 1. Operator Precedence in Java   https://introcs.cs.princeton.edu/java/11precedence/
 2. Java quick reference          https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf
+
+## Code visulization tool
+https://pythontutor.com/visualize.html#mode=edit
+
+## How to debug? A good programmer must know where is the bug....
+https://greenteapress.com/thinkjava6/html/thinkjava6018.html
+
+### Natural language debugging
+https://en.wikipedia.org/wiki/Rubber_duck_debugging
+
 ## OOP
 https://www.youtube.com/watch?v=m_MQYyJpIjg
 
@@ -39,3 +49,12 @@ https://www.youtube.com/watch?v=-Y67pdWHr9Y
 
 ## Markov Chain
 https://www.youtube.com/watch?v=KZeIEiBrT_w
+
+## Boolean and conditional
+https://codingbat.com/doc/java-if-boolean-logic.html
+
+# Content Learn and Review 
+
+https://play.juicemind.com/dashboard/explore/class/ap-cs-a-codeorg?tab=quizzes
+
+
