@@ -2,6 +2,10 @@
 ## AP Exam guideline.
 https://youtu.be/aRLDi2q-4WY
 
+## Java code run line by line explanation
+
+https://pythontutor.com/java.html#mode=edit
+
 ## Reference
 1. Operator Precedence in Java   https://introcs.cs.princeton.edu/java/11precedence/
 2. Java quick reference          https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-java-quick-reference.pdf
