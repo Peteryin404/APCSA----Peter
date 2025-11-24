@@ -1,0 +1,15 @@
+/* Fix for sidebar link overflow */
+.nav-list a,
+.side-bar a,
+.sidebar a {
+  white-space: normal;       /* allow wrapping */
+  word-break: break-word;    /* break long words if needed */
+  overflow-wrap: break-word; /* for modern browsers */
+}
+
+/* Ensure left panel never expands horizontally */
+.nav-list,
+.side-bar,
+.sidebar {
+  overflow-x: hidden;
+}

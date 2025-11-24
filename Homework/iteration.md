@@ -60,3 +60,5 @@ What is the secret number?
  Correct!
  
  Number of guesses: 4
+
+Q4. Write code to print out Christmas trees (ChristmasTree1 and ChristmasTree2) and a letter K as shown in the media folder.
