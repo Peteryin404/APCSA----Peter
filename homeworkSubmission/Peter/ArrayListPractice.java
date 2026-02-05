@@ -51,6 +51,28 @@ public class listAddInt2
         System.out.println(list1.size());
     }
 }
+
+public class listAddInt3
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> nums = new ArrayList<Integer>();
+        nums.add(10);
+        nums.add(20);
+        nums.add(30);
+        System.out.println(nums);   // [10, 20, 30]
+
+        // Insert 15 at index 1
+        nums.add(1, 15);
+        System.out.println(nums);   // [10, 15, 20, 30]
+
+        // Insert 5 at index 0
+        nums.add(0, 5);
+        System.out.println(nums);   // [5, 10, 15, 20, 30]
+
+        System.out.println(nums.size()); // 5
+    }
+}
 // remove
 public class listRem
 {
@@ -63,6 +85,27 @@ public class listRem
         System.out.println(list1);
         list1.remove(1);
         System.out.println(list1);
+    }
+}
+
+public class listRems2
+{
+    public static void main(String[] args)
+    {
+        ArrayList<String> colors = new ArrayList<String>();
+        colors.add("Red");
+        colors.add("Blue");
+        colors.add("Green");
+        colors.add("Yellow");
+        System.out.println(colors);   // [Red, Blue, Green, Yellow]
+
+        // Remove index 2 ("Green")
+        colors.remove(2);
+        System.out.println(colors);   // [Red, Blue, Yellow]
+
+        // Remove index 0 ("Red")
+        colors.remove(0);
+        System.out.println(colors);   // [Blue, Yellow]
     }
 }
 // different from array[index]
@@ -79,5 +122,29 @@ public class listGetSet
         System.out.println(nameList.get(1));
         nameList.set(1, "John");
         System.out.println(nameList);
+    }
+}
+
+public class listGetSet2
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> scores = new ArrayList<Integer>();
+        scores.add(80);
+        scores.add(90);
+        scores.add(70);
+        System.out.println(scores);  // [80, 90, 70]
+
+        // get value
+        int firstScore = scores.get(0);
+        System.out.println(firstScore); // 80
+
+        // replace value
+        scores.set(2, 85);
+        System.out.println(scores);  // [80, 90, 85]
+
+        // update using get
+        scores.set(1, scores.get(1) + 5);
+        System.out.println(scores);  // [80, 95, 85]
     }
 }
